@@ -2,8 +2,6 @@
 
 Student:Baltabay Sauyrzhan
 
----
-
 ### 1. Part 1: Prediction vs Measured Values
 
 Before running the scripts, I assumed that Cyrillic texts (Russian and Kazakh) would cost much more than English because of how BPE tokenization works. My hypothesis was that Russian and Kazakh would produce **1.5x to 2.0x more tokens** than English because words in Cyrillic are often split into smaller byte pieces and individual characters.
