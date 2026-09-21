@@ -8,11 +8,10 @@ Student:Baltabay Sauyrzhan
 
 Before running the scripts, I assumed that Cyrillic texts (Russian and Kazakh) would cost much more than English because of how BPE tokenization works. My hypothesis was that Russian and Kazakh would produce **1.5x to 2.0x more tokens** than English because words in Cyrillic are often split into smaller byte pieces and individual characters.
 After running the measurements on the Claude Opus 5 model, here are the actual total cost ratios (Total Bill Ratio) I got:
-* **English (EN):** 1.00x *(baseline)*
-* **Russian (RU):** 1.29x
-* **Kazakh (KK):** 1.42x
+**English (EN):** 1.00x *(baseline)*
+**Russian (RU):** 1.29x
+**Kazakh (KK):** 1.42x
 
-**What surprised me:**  
 Looking only at the input prompt tokens, the difference was huge — Kazakh had **2.19x** more tokens than English (and Russian had **1.44x**). However, the final bill ratio was lower — only **1.42x** for Kazakh. This happens because the model's generated output length is fairly similar in meaning across all languages, which balances out the overall final cost.
 
 
