@@ -1,6 +1,6 @@
 # Lab 01 Report: LLM Tokenization and Cost Analysis
 
-**Student:Baltabay Sauyrzhan
+Student:Baltabay Sauyrzhan
 
 ---
 
@@ -15,7 +15,6 @@ After running the measurements on the Claude Opus 5 model, here are the actual t
 **What surprised me:**  
 Looking only at the input prompt tokens, the difference was huge — Kazakh had **2.19x** more tokens than English (and Russian had **1.44x**). However, the final bill ratio was lower — only **1.42x** for Kazakh. This happens because the model's generated output length is fairly similar in meaning across all languages, which balances out the overall final cost.
 
----
 
 ### 2. Part 2 & 3: Annual Cost Table
 
