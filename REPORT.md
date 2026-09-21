@@ -1,4 +1,4 @@
-# Lab 01 Report: LLM Tokenization and Cost Analysis
+# Lab 01 Report:The price of one request
 
 Student:Baltabay Sauyrzhan
 
@@ -36,13 +36,13 @@ I chose a daily volume of **5,000 requests per day** because it represents a rea
 For a real customer support system in Kazakh, I would choose **Haiku 4.5**.
 
 **Reason:**  
-`Haiku 4.5` gives the best balance between price and performance. It costs only **$12,779 per year** for Kazakh, which is about 80% cheaper than Opus 5 ($63,893/year). At the same time, Haiku 4.5 responds very fast (low latency) and easily handles standard customer support instructions in Kazakh without wasting money on heavy reasoning.
+Haiku 4.5 gives the best balance between price and performance. It costs only $12,779 per year for Kazakh, which is about 80% cheaper than Opus 5 ($63,893/year). At the same time, Haiku 4.5 responds very fast (low latency) and easily handles standard customer support instructions in Kazakh without wasting money on heavy reasoning.
 
 ---
 
 ### 4. Cost-Reduction Lever Not Used in This Lab
 
-Using **Prompt Caching** (or using the Batch API for non-urgent background tasks) could reduce the cost of repetitive system prompt input tokens by up to 50–90%.
+Using Prompt Caching (or using the Batch API for non-urgent background tasks) could reduce the cost of repetitive system prompt input tokens by up to 50–90%.
 
 ---
 
